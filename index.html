@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>SAWA Digital Souq</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section class="intro">
+			<h1 id="header1">SAWA PRESENTS: </h1>
+			<h2 id="header2">An art gallery by our very own Determined students</h2>
+		</section>
+		<section id="onlyForDivider"></section>
+
+		<section class="mainsec">
+			<section class="floater" id="lessWidth">
+				<h3>
+					What is this website for?
+				</h3><br>
+				<p>
+					This is a showcase for Christmas cards designed by the students of SAWA.
+				</p>
+				<br><br>
+				<h3>
+					How do I go about purchasing one of these?
+				</h3><br>
+				<p>
+					All you must do is scroll through the cards on your right until you find one you like.
+					Then go ahead and download the card to your computer. Each card has a specialized code which 
+					comes with it.<br>
+					The final step is to send me a message using the form in the section below. Mention the code of the
+					card(s) you downloaded as well.
+					<br><br>
+					<strong><span id="justBoldenThisRealQuick">Keep in mind that each card costs only 1AED!</span></strong>
+					<br><br>
+					Thanks so much! :)
+				</p>
+			</section>
+			<section class="floater" id="moreWidth">
+				<section class="imageGoesHere">
+					<img src="images/williamcard1.PNG" id="william1">
+					<img src="images/williamcard2.PNG" id="william2" class="hidden">
+					<img src="images/williamcard3.PNG" id="william3" class="hidden">
+					<img src="images/johancard1.jpg" id="johan1" class="hidden">
+					<img src="images/johancard2.jpg" id="johan2" class="hidden">
+					<img src="images/johancard3.jpg" id="johan3" class="hidden">
+					<img src="images/johancard4.jpg" id="johan4" class="hidden">
+					<img src="images/johancard5.jpg" id="johan5" class="hidden">
+					<img src="images/praveencard1.jpg" id="praveen1" class="hidden">						
+					<img src="images/praveencard2.jpg" id="praveen2" class="hidden">
+					<img src="images/praveencard3.jpg" id="praveen3" class="hidden">
+					<img src="images/abhinav1.jpg" id="abhinav1" class="hidden">
+					<img src="images/abhinav2.jpg" id="abhinav2" class="hidden">
+					<img src="images/abhinav3.jpg" id="abhinav3" class="hidden">
+					<img src="images/abhinav4.jpg" id="abhinav4" class="hidden">
+					<img src="images/abhinav5.jpg" id="abhinav5" class="hidden">
+				</section>
+				<section class="buttons">
+					<button id="prev">Previous</button>
+					<button id="next">Next</button>
+					<button id="select">Select</button>
+				</section>
+				<p id="cardInfo">Code: <strong><span id="placeCodeHere">1WILL</span></strong></p>
+				<p id="authorName">Made by <span id="placeAuthorHere">William</span></p>
+
+			</section>
+		</section>
+
+		<section class="cartSection">
+			<h3 id="justMessage">These are the cards you have selected:</h3>
+			<h3 id="placeSelectedHere"></h3>
+			<h3>Total to pay:<span id="placePriceHere"></span></h3>
+		</section>
+
+		<section class="finalSec">
+			<!-- modify this form HTML and place wherever you want your form -->
+			<form action="https://formspree.io/f/mdoppkav" method="POST">
+				<input type="text" name="userName" id="userName" placeholder="Enter your full name here: ">
+				<input type="email" name="userEmal" id="userEmail" placeholder="Enter your email id here: ">
+				<textarea name="message" id="userMessage" placeholder="Enter your message here. Don't forget to add the code of the cards you wish to buy. Please try and submit the form only once. Also, feel free to add any feedback about the site. "></textarea>
+				<button type="submit" id="userSendInfo">Send</button>
+			</form>
+			
+		</section>
+
+		<footer>
+			<span id="licensing">© Untitled. All rights reserved. Site created by Sidharth Soman - 2020.</span>
+		</footer>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

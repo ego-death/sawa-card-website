@@ -1,0 +1,182 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+*{
+	color: #a9f1f5;
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+body:before{
+	content:"";
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1; 
+	background:#D8D8D8;
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+.intro{
+	margin-top: 60px;
+	text-align: center;
+
+}
+
+#header1{
+	font-size: 5em;
+}
+
+#header2{
+	font-size: 2em;
+}
+
+.mainsec{
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#onlyForDivider{
+	width: 70%;
+	border-bottom: 4px solid cyan;
+	margin: 20px auto;
+}
+
+.floater{
+	width: 50%;
+	height: 600px;
+}
+
+#justBoldenThisRealQuick{
+	font-size: 1.25em;
+}
+
+#lessWidth{
+	text-align: left;
+	width: 40%;
+	padding: 65px 0 100px 20%;
+}
+
+#moreWidth{
+	width: 60%;
+}
+
+.imageGoesHere{
+	text-align: center;
+	margin: 65px 0;
+}
+
+img{
+	border: 10px solid black;
+	width: 37%;
+	height: 350px;
+}
+
+.hidden{
+	display: none;
+}
+
+.buttons{
+	margin-top: -50px;
+	text-align: center;
+}
+
+button{
+	background: cyan;
+	color: black;
+	border: 5px solid black;
+	width: 10%;
+	height: 40px;
+}
+
+#cardInfo{
+	margin: 10px 0 5px 0;
+	text-align: center;
+}
+
+#authorName{
+	text-align: center;
+}
+
+.finalSec{
+
+	position: relative;
+	padding: 30px 400px;
+}
+
+
+
+input, textarea, #userSendInfo{
+	margin: 5px 0;
+	background: white;
+	color: black;
+	margin-left: 30%;
+	display: block;
+	width: 40%;
+}
+
+textarea{
+	height: 300px;
+	resize: none;
+}
+
+footer{
+	margin: 30px auto;
+	width: 70%;
+	padding: 20px 0;
+	border-top: 5px solid cyan;
+	text-align: center;
+}
+
+.cartSection{
+	text-align: center;
+	height: 100px;
+}
+
+#placeSelectedHere{
+	margin: 20px 0;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
