@@ -1,4 +1,7 @@
 /*NOTE: FORM STILL HOOKED UP TO SIDSOMANAPP. NEED TO CHANGE AND FILTER EMAILS TO ADMIN AND WHATEVER*/
+
+console.log("Welcome");
+
 const william1=document.querySelector('#william1');
 const william2=document.querySelector('#william2');
 const william3=document.querySelector('#william3');
